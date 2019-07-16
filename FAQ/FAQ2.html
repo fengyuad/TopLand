@@ -12,21 +12,25 @@
     <style>
       
       .BackGroundImage{
-          background-image: url('./kids_play.jpg');
-          height:500px;
+        background-image: url('./WebsiteAssets/PhotoBanner_1280_2.png');
+
+          
           background-repeat: no-repeat;
       
-          
-          /*padding: 20px 0px;*/
-          background-size: 100% 100%;
-          /*margin-bottom: 0;
-          line-height: 600px;*/
+          background-size: cover;
+
           font-size: 40px;
-          padding-top: 300px;
-          text-align: center;
           color: white;
+          margin: top:;
 
                 
+      }
+      .middleBot{
+        padding-top: 100px;
+        text-align: center;
+        color: white;
+        padding-bottom: 50px;
+       
       }
         .nav-item{
           margin-left: 30px;
@@ -37,6 +41,7 @@
         .GQ{ 
             margin-top: 30px; 
             margin-bottom:30px;
+            text-align: center;
         }
         .dropDown{
           border-radius: 20px;
@@ -51,7 +56,7 @@
         }
 
         button{
-          margin-top: 15px;
+          margin-top: 10px;
           margin-left: 10px;
         }
 
@@ -71,48 +76,63 @@
         .follow{
           margin-top: 20px;
         }
+
+        footer{
+          text-align: center;
+          font-size:15px;
+          margin-top: 30px;
+          background-color: purple;
+          color: white;
+          padding-top: 30px;
+          padding-bottom: 20px;
+        }
+        p a{
+          color: white;
+        }
     </style>
   </head>
   <body>
 
-<div class = "Header text-dark bg-warning fixed-top">
-   <ul class="nav nav-10 justify-content-center ">
 
-      <li class="nav-item " style="
-          margin-left: 30px;
-          margin-top:10px;
-          margin-bottom: 15px;">
-        <a class="navbar-brand" href="#">
-          <img src="./octobo-logo.png" width="170" height="50" alt="">
-        </a>
-      </li>
-      <li class="nav-item " >
-        <a class="nav-link text-dark" href="#">Privacy Policy</a>
-      </li>
-      <li class="nav-item" >
-        <a class="nav-link text-dark" href="#">Terms & Conditions</a>
-      </li>
-      <li class="nav-item" >
-        <a class="nav-link active text-dark" href="#">FAQ</a>
-      </li>
-      <li class="nav-item" >
-        <a class="nav-link text-dark" href="#">Contact</a>
-      </li>
-    </ul>
+<div class = "navbar navbar-expand-md navbar-light bg-warning">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style = "margin-bottom: 15px;margin-top: 10px;"></span>
+          </button>
+    <!-- <div class="navbar-nav mr-auto topnav justify-content-center flex-column flex-md-row"> -->
+      <div class="navbar-nav justify-content-center collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">
+            <img src="./octobo-logo.png" width="170" height="50" alt="">
+          </a>
+
+          <a class="nav-link text-dark nav-item" href="#">Privacy Policy</a>
+
+          <a class="nav-link text-dark nav-item" href="#">Terms & Conditions</a>
+
+          <a class="nav-link active text-dark nav-item" href="#">FAQ</a>
+
+          <a class="nav-link text-dark nav-item" href="#">Contact</a>
+
+      </div>
+
+
 </div>
 
+
   <div class = "BackGroundImage">
-         FAQ<br>
-         See Below for answers to common questions.
+      <p class="middleBot">
+            FAQ<br>
+            See Below for answers to common questions.
+      </p>
+
   </div>
 
-  <div class=" GQ d-flex justify-content-center" style=>
+  <div class=" GQ" style=>
     <h2 class = "text-success" > General Questions</h2>
   </div>
 
   <div class = "row">
-     <div class ="col-3"></div>
-      <div class="accordion col-6 " id="accordionExample">
+     <div class ="col"></div>
+      <div class="accordion col-8 col-md-6" id="accordionExample">
 
           <div class="border dropDown" id="headingOne">
             <h2 class="mb-0">
@@ -192,11 +212,18 @@
                 </div>
 
           </div>
-      </div>
-      <div class ="col-3"></div>
 
+      </div>
+      <div class ="col"></div>
 
     </div>
+
+    <footer>
+      <p>
+          Read out <a href = "#" > <u>Privacy Policy </u> </a>and <a href = "#"> <u>Terms & Conditions </u> </a> Thinker-Tinker @ 2019  
+     </p>       
+
+    </footer>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
